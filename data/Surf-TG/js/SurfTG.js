@@ -183,8 +183,9 @@
     const videolink = window.location.href;
     // const downloadlink = videolink.replace("/watch/", "/");
     const downloadlink = videolink.replace("/watch/", "/").replace(/\?.*/, "/video.mp4$&");
+
     function vlc_player() {
-        const openDownloadLink = downloadlink;
+        const openstreamlink = streamlink.replace(/^https?:\/\//, '');
         const openVlc = `vlc://${openDownloadLink}`;
         window.location.href = openVlc;
     }
