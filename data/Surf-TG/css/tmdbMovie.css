@@ -53,7 +53,7 @@ body {
 }
 
 .movie-title {
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 10px;
     font-family: 'Helvetica Neue', Arial, sans-serif;
     text-align: left; /* Title starts from the left */
